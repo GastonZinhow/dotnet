@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Confirmação de apagar o contato";
+}
+<div class="text-center">
+    <h3>Realmente deseja apagar o contato? (Matheus Gaston)</h3>
+</div>
+
+<a class="btn btn-primary w-100 mt-2" role="button" asp-controller="Contato" asp-action="Index">Cancelar exclusão</a>
+<a class="btn btn-danger w-100 mt-2" role="button" asp-controller="Contato" asp-action="Apagar">Confirmar exclusão</a>
